@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee">
+	<servlet>
+		<servlet-name>Manager_Login</servlet-name>
+		<servlet-class>Manager_Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Manager_Login</servlet-name>
+		<url-pattern>/Manager_Login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Clerk_Login</servlet-name>
+		<servlet-class>Clerk_Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Clerk_Login</servlet-name>
+		<url-pattern>/Clerk_Login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>User_Login</servlet-name>
+		<servlet-class>User_Login</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>User_Login</servlet-name>
+		<url-pattern>/User_Login</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>User_Reg</servlet-name>
+		<servlet-class>User_Reg</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>User_Reg</servlet-name>
+		<url-pattern>/User_Reg</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Manager_seats</servlet-name>
+		<servlet-class>Manager_seats</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Manager_seats</servlet-name>
+		<url-pattern>/Manager_seats</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>User_booking</servlet-name>
+		<servlet-class>User_booking</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>User_booking</servlet-name>
+		<url-pattern>/User_booking</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>User_booking2</servlet-name>
+		<servlet-class>User_booking2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>User_booking2</servlet-name>
+		<url-pattern>/User_booking2</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	<servlet>
+		<servlet-name>User_Login2</servlet-name>
+		<servlet-class>User_Login2</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>User_Login2</servlet-name>
+		<url-pattern>/User_Login2</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>User_show_ticket</servlet-name>
+		<servlet-class>User_show_ticket</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>User_show_ticket</servlet-name>
+		<url-pattern>/User_show_ticket</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Manager_SalesPerson</servlet-name>
+		<servlet-class>Manager_SalesPerson</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Manager_SalesPerson</servlet-name>
+		<url-pattern>/Manager_SalesPerson</url-pattern>
+	</servlet-mapping>
+
+
+	
+
+
+	<servlet>
+		<servlet-name>Manager_show_details</servlet-name>
+		<servlet-class>Manager_show_details</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Manager_show_details</servlet-name>
+		<url-pattern>/Manager_show_details</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Manager_show_delete</servlet-name>
+		<servlet-class>Manager_show_delete</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Manager_show_delete</servlet-name>
+		<url-pattern>/Manager_show_delete</url-pattern>
+	</servlet-mapping>
+	
+
+<servlet>
+		<servlet-name>Manager_show_percentage</servlet-name>
+		<servlet-class>Manager_show_percentage</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Manager_show_percentage</servlet-name>
+		<url-pattern>/Manager_show_percentage</url-pattern>
+	</servlet-mapping>
+	
+
+	<servlet>
+		<servlet-name>User_cancel_ticket</servlet-name>
+		<servlet-class>User_cancel_ticket</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>User_cancel_ticket</servlet-name>
+		<url-pattern>/User_cancel_ticket</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	<servlet>
+		<servlet-name>Message</servlet-name>
+		<servlet-class>Message</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Message</servlet-name>
+		<url-pattern>/Message</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Message_SalesPerson</servlet-name>
+		<servlet-class>Message_SalesPerson</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Message_SalesPerson</servlet-name>
+		<url-pattern>/Message_SalesPerson</url-pattern>
+	</servlet-mapping>
+
+
+
+	<servlet>
+		<servlet-name>Message_SalesPersons</servlet-name>
+		<servlet-class>Message_SalesPersons</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Message_SalesPersons</servlet-name>
+		<url-pattern>/Message_SalesPersons</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>Clerk_Balance</servlet-name>
+		<servlet-class>Clerk_Balance</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Clerk_Balance</servlet-name>
+		<url-pattern>/Clerk_Balance</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	<servlet>
+		<servlet-name>Manager_previous_show_details</servlet-name>
+		<servlet-class>Manager_previous_show_details</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Manager_previous_show_details</servlet-name>
+		<url-pattern>/Manager_previous_show_details</url-pattern>
+	</servlet-mapping>
+
+	
+	<servlet>
+		<servlet-name>Manager_html_show_book</servlet-name>
+		<servlet-class>Manager_html_show_book</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Manager_html_show_book</servlet-name>
+		<url-pattern>/Manager_html_show_book</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Manager_Clerk</servlet-name>
+		<servlet-class>Manager_Clerk</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Manager_Clerk</servlet-name>
+		<url-pattern>/Manager_Clerk</url-pattern>
+	</servlet-mapping>
+</web-app>
