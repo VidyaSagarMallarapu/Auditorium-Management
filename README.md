@@ -39,8 +39,7 @@ manager only.
 
   
 # Development Tools:-
-
-Android Studio, Firebase.
+tomcat server,mysql database.
 
 
 # System Requirements:-
