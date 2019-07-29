@@ -32,6 +32,7 @@ CREATE TABLE `Show` (
   `balcony_rate` double DEFAULT '12.3',
   `ordinary_rate` double DEFAULT '12.3',
   `ShowName` varchar(50) DEFAULT NULL,
+  /*number is for wheather a show is over or not */;
   `number` int(11) DEFAULT '0',
   PRIMARY KEY (`sid`),
   KEY `fk_show3` (`sm_id`),
