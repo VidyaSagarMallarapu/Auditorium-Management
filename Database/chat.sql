@@ -27,6 +27,8 @@ CREATE TABLE `chat` (
   `User` varchar(100) DEFAULT NULL,
   `current` varchar(100) DEFAULT NULL,
   `msg` varchar(1000) DEFAULT NULL,
+  /*number is for readed the message or unread */;
+
   `number` int(11) DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
